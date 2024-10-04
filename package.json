@@ -1,0 +1,20 @@
+{
+  "name": "git-pr-notif",
+  "version": "1.0.0",
+  "description": "Be notified when you assigned to a PR, or when someone answer to you on a PR, or when someone tag you on a PR",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/rest": "^21.0.2",
+    "dotenv": "^16.4.5",
+    "node-notifier": "^10.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4"
+  }
+}
